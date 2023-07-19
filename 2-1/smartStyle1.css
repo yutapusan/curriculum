@@ -13,14 +13,12 @@
     .right{
         width: 100px;
     }
-
-
+    
     .footer{
         width: 250px;
     }
 
 }
-
 
 
 /* ウィンドウの幅が最大479pxまでの場合に適用 */
@@ -30,6 +28,12 @@
     }
 
     .right{
+        float: none;
+        width: 150px;
+    }
+
+    .left{
+        float: none;
         width: 150px;
     }
 
